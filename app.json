@@ -1,6 +1,6 @@
 {
-  "name": "AnyDLBot",
-  "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
+  "name": "UploadBot",
+  "description": "Telegram's best ALL-In-One Multi Purpose RoBot.",
   "keywords": [
     "telegram",
     "best",
@@ -14,9 +14,7 @@
     "remote",
     "uploader"
   ],
-  "success_url": "https://telegram.dog/AnyDLBot",
-  "website": "https://github.com/SpEcHiDe/AnyDLBot",
-  "repository": "https://github.com/SpEcHiDe/AnyDLBot",
+  "success_url": "https://telegram.dog/pw_upload_linkbot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
@@ -59,6 +57,8 @@
   ],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
   }, {
     "url": "heroku/python"
   }],
